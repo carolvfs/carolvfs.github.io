@@ -209,13 +209,7 @@ h1 {
     display: inline-block;
     margin-bottom: 0.5rem;
   }
-  /* .paper-item {
-    flex-direction: column;
-    text-align: center;
-  }
-  .paper-thumb {
-    margin-bottom: 0.5rem;
-  } */
+
   .paper-item {
     flex-direction: column;
     align-items: center;

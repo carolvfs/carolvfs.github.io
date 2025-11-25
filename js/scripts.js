@@ -1,5 +1,5 @@
 // scripts.js
-import { profile, papers, education, experience, projects, gallery } from './data.js';
+import { profile, research, papers, education, experience, projects, gallery } from './data.js';
 
 // Populate profile
 document.getElementById('profile-name').textContent = profile.name;
@@ -25,6 +25,15 @@ papers.forEach(p => {
     </div>
   `;
   papersList.appendChild(li);
+});
+
+// Populate research interests
+const researchList = document.getElementById('research-list');
+research.forEach(e => {
+  const entry = document.createElement('div');
+  entry.className = 'entry';
+  entry.innerHTML = `<div class='content'><h3>${e.topic}</h3><p>${e.details}</p></div>`;
+  researchList.appendChild(entry);
 });
 
 // Populate education
