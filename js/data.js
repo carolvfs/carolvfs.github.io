@@ -69,7 +69,7 @@ export const research = [
 
   { topic: "Human-AI Interaction", details: "Explore the integration of AI techniques with human-centered design in visualization systems, aiming to create interactive tools that leverage AI capabilities while maintaining (not replacing) human judgment in complex analytical tasks." },
   
-  { topic: "Visualization Education (New!)", details: "Develop visualization frameworks and instructional methods that strengthen analytical, creative, and critical thinking, supporting students and professionals in learning how to reason effectively with data." },
+  { topic: "Visualization Education", details: "Develop visualization frameworks and instructional methods that strengthen analytical, creative, and critical thinking, supporting students and professionals in learning how to reason effectively with data." },
 
 ];
 
